@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rishabhp2899@gamil.com
+spec:
+  replicas: 3  # Number of replicas you want
+  selector:
+    matchLabels:
+      app:  rishabhp2899@gamil.com
+  template:
+    metadata:
+      labels:
+        app:  rishabhp2899@gamil.com
+    spec:
+      containers:
+      - name:  rishabhp2899@gamil.com
+        image:  rishabhp2899@gamil.com
+        ports:
+        - containerPort: 80
